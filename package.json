@@ -1,0 +1,26 @@
+{
+  "name": "ankitchatapp",
+  "version": "1.0.0",
+  "description": "chatting app to communicate with others using nodejs and socketio",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  
+  },
+  "keywords": [
+    "chatapp",
+    "messaging",
+    "app",
+    "nodejs"
+  ],
+  "author": "Ankit Badhani",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}
